@@ -12,7 +12,7 @@ Additionally, to ensure safe exploration in obstacle-filled environments, we int
 <div align="center">
    <img width="50%" height="50%" src="Figure/Exploration_Trajectories.gif">
    <br>
-   <em>Figure 1: The graphical abstract highlights the main contribution of this work by illustrating the neuro-Lorenz control network (NLCN) in the form of a two-neuron recurrent network. This network functions as an internal driving system that generates a baseline signal exhibiting discrete-time Lorenz attractor-like neural dynamics. The signal is then post-processed to generate exploration control commands for the flying robot, enabling complex exploration behaviors comparable to Lévy flight foraging.</em>
+   <em>Figure 2: Comparison of flying trajectories among three exploration control strategies: Brownian motion (Random walk, depicted in blue), L´evy flight (depicted in orange), and IANCS (ANOAC + ANEC, depicted in green).</em>
 </div>
 <br>
 
