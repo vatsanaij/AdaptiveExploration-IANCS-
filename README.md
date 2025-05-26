@@ -12,13 +12,13 @@ Additionally, to ensure safe exploration in obstacle-filled environments, we int
 <div align="center">
    <img width="50%" height="50%" src="Figure/Exploration_Trajectories.gif">
    <br>
-   <em>Figure 2: Comparison of flying trajectories among three exploration control strategies: Brownian motion (Random walk, depicted in blue), L´evy flight (depicted in orange), and IANCS (ANOAC + ANEC, depicted in green).</em>
+   <em>Figure 2: Comparison of flying trajectories among three exploration control strategies: Brownian motion (Random walk, depicted in blue), Lévy flight (depicted in orange), and IANCS (ANOAC + ANEC, depicted in green).</em>
 </div>
 <br>
 
 
 ## Introduction
-This study presents an Adaptive Neural Exploration Control (ANEC) system for autonomous flying robots as an alternative to conventional Lévy flight-based models. At its core is a compact recurrent neural network, the Neuro-Lorenz Control Network, which generates discrete-time Lorenz attractor-like neural dynamics. These dynamics drive adaptive exploration behaviors via an adaptive bias thresholding mechanism, enabling both local and global search strategies.
+This work presents an Adaptive Neural Exploration Control (ANEC) system for autonomous flying robots as an alternative to conventional Lévy flight-based models. At its core is a compact recurrent neural network, the Neuro-Lorenz Control Network, which generates discrete-time Lorenz attractor-like neural dynamics. These dynamics drive adaptive exploration behaviors via an adaptive bias thresholding mechanism, enabling both local and global search strategies.
 To support safe navigation, the system incorporates an enhanced Adaptive Neural Obstacle Avoidance Control (ANOAC), referred to as the Neuro-Hysteresis Control Network. This updated module improves upon prior work by integrating lateral-surrounding sensors and a synaptic plasticity mechanism to increase obstacle avoidance adaptability during exploration.
 The full Integrated Adaptive Neural Control System (IANCS) was implemented and tested on both simulated and real drones, demonstrating its effectiveness in both obstacle-free and obstacle-filled environments.
 <br>
