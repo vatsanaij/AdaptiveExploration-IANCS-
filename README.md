@@ -7,7 +7,15 @@ Additionally, to ensure safe exploration in obstacle-filled environments, we int
    <br>
    <em>Figure 1: The graphical abstract highlights the main contribution of this work by illustrating the neuro-Lorenz control network (NLCN) in the form of a two-neuron recurrent network. This network functions as an internal driving system that generates a baseline signal exhibiting discrete-time Lorenz attractor-like neural dynamics. The signal is then post-processed to generate exploration control commands for the flying robot, enabling complex exploration behaviors comparable to Lévy flight foraging.</em>
 </div>
+<bv>  
 <br>  
+<div align="center">
+   <img width="50%" height="50%" src="Figure/Exploration_Trajectories.gif">
+   <br>
+   <em>Figure 1: The graphical abstract highlights the main contribution of this work by illustrating the neuro-Lorenz control network (NLCN) in the form of a two-neuron recurrent network. This network functions as an internal driving system that generates a baseline signal exhibiting discrete-time Lorenz attractor-like neural dynamics. The signal is then post-processed to generate exploration control commands for the flying robot, enabling complex exploration behaviors comparable to Lévy flight foraging.</em>
+</div>
+<br>
+
 
 ## Introduction
 This study presents an Adaptive Neural Exploration Control (ANEC) system for autonomous flying robots as an alternative to conventional Lévy flight-based models. At its core is a compact recurrent neural network, the Neuro-Lorenz Control Network, which generates discrete-time Lorenz attractor-like neural dynamics. These dynamics drive adaptive exploration behaviors via an adaptive bias thresholding mechanism, enabling both local and global search strategies.
