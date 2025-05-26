@@ -1,4 +1,4 @@
-# Neural Dynamics and Synaptic Plasticity in Simple Networks Drive Lévy Flight Foraging and Obstacle Avoidance Behaviors for Bio-Inspired Autonomous Flight
+# Neural Dynamics and Synaptic Plasticity in Simple Networks Drive Lévy Flight Foraging and Obstacle Avoidance Behaviors
 <div align="center">
    <img width="60%" height="60%" src="Figure/Fig.0.4.svg">
 </div>
