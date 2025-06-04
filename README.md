@@ -29,5 +29,6 @@ The full Integrated Adaptive Neural Control System (IANCS) was implemented and t
 </div>
 
 <br>
-If you have any questions, [vatsanai.j_s18@vistec.ac.th](mailto:vatsanai.j_s18@vistec.ac.th).
+If you have any questions. Feel free to contact me at vatsanai.j_s18@vistec.ac.th
+
 
